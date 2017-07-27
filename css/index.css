@@ -71,7 +71,7 @@
 	border: 1px solid #eee;
 	box-shadow: 2px 2px 5px rgba(0,0,0,.2);
 	display:none;
-	z-index: 99;
+	z-index: 999;
 	text-align: center;
 }
 .topbox .right ul li.down_box .hidden_box p{
@@ -237,6 +237,13 @@
 	width: 130px;
 	display: block;
 	padding:8px 14px 8px 20px;
+	background: #fff;
+}
+.banner_box .menu_box ul li.last_item dl dd.dd_line{
+	width: 130px;
+	display: block;
+	margin-top: 4px;
+	padding:4px 14px 4px 20px;
 	background: #fff;
 }
 .banner_box .menu_box ul .last_item .item_dl .dd_line:hover{
