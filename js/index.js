@@ -22,20 +22,25 @@ $(function(){
 		$('.utility_hidden').show();
 		$('.content_box_1').show();
 		$('.u_box1').addClass('utility_show hover');
+		$('.line').css({"display":"none"});
 	},function(){
 		$('.utility_hidden').hide();
 		$('.content_box_1').hide();
 		$('.u_box1').removeClass('utility_show hover');
+		$('.line').css({"display":"block"});
 	})
 
 	$('.u_box2,.content_box_2').hover(function(){
 		$('.utility_hidden').show();
 		$('.content_box_2').show();
 		$('.u_box2').addClass('utility_show hover');
+		$('.line').css({"display":"none"});
 	},function(){
 		$('.utility_hidden').hide();
 		$('.content_box_2').hide();
 		$('.u_box2').removeClass('utility_show hover');
+		$('.line').css({"display":"block"});
+
 	})
 	
 	//轮播图图片动画
